@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    
+    <title>Marcos Rodríguez CV</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    
+    <link rel="stylesheet" href="css/styles.css">
+   
+    <script src="https://kit.fontawesome.com/43e89c4237.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    
+    <header class="header">
+        
+        </div>
+        <nav>
+            <ul class="menu">
+                <li><a href="#seccion1">Hero</a></li>
+                <li><a href="#seccion2">Experience</a></li>
+                <li><a href="#seccion3">About me</a></li>
+                <li><a href="#seccion4">Skills</a></li>
+                <li><a href="#seccion5">Contact me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <br>
+
+    <section class="parrafo" id="seccion1">
+        <div class="contenedor">
+            <div class="atras botones">
+                &#60
+            </div>
+
+            <div class="adelante botones">
+                &#62
+            </div>
+
+            <img src="img/carru1.jpg" alt="" id="imagen">
+        </div>
+    </section>
+
+    <section class="portafolio" id="seccion2">
+        <h1>Experience</h1>
+        <div class="contenedor">
+            <div class="portafolioC">
+                <section class="portafolioI">
+                   <a href="http://www.venezolano.com/"><img src="img/epx1.PNG" class="portafolioIMG" alt=""></a> 
+                    <section class=portafolioT>
+                        <h2>Banco Venezolano de Credito</h2>
+                        <p>Desarrollado con HTML, CSS, JS y Angular
+                            año:2015 
+
+                        </p>
+                    </section>
+
+
+                </section>
+                <section class="portafolioI">
+                    <a href="http://www.streetmarketing.co/"><img src="img/epx2.PNG" class="portafolioIMG" alt=""></a>
+                    <section class=portafolioT>
+                        <h2>Street Marketing</h2>
+                        <p>Desarrollado con CSS, JS y React
+                            año:2016
+                            
+                        </p>
+                    </section>
+
+
+                </section>
+                <section class="portafolioI">
+                    <a href="https://www.valocator.com"><img src="img/epx3.PNG" class="portafolioIMG" alt=""></a>
+                    <section class=portafolioT>
+                        <h2>Valocator</h2>
+                        <p>Desarrollado con php, JS, HTML CSS
+                            año:2012 
+                            
+                        </p>
+                    </section>
+
+
+                </section>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="aboutme" id="seccion3">
+        <div class="contenedor">
+            <img src="img/marcos.jpg" width="180" class="aboutimg">
+            <h1>Marcos Rodríguez</h1>
+            <h2>Software Engineer | Director de marketing</h2>
+            <p>Mis objetivos largo plazo: tener una empresa de marketing digital y desarrollo web
+                <br>
+               Mis objetivos a corto plazo: Graduarme e irme de Venezuela
+               <br>
+               me gusta el mundo del marketing, redes sociales y la tecnología
+            </p>
+
+            <ul>
+                <li><a href="https://www.instagram.com/marcosrodriguezsr/"><i class="fab fa-instagram-square" ></i></a></li>
+                <li><a href="https://twitter.com/yosoymarcoss_"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="https://api.whatsapp.com/send/?phone=584126357860&text&app_absent=0"><i class="fab fa-whatsapp-square"></i></a></li>
+            </ul>
+        
+
+        </div>
+    </section>
+    <br>
+    <br>
+    <br>
+
+    <section class="parrafo" id=seccion4>
+        <div class="contenedor">
+        <h1>Skills</h1>
+
+        </div>
+    </section>
+
+    <section class="parrafo" id=seccion5>
+        <div class="contenedor">
+            <form action="" class="form">
+                <div class="from-header">
+                    <h1 class="from-title">C<span>ontacto</span></h1>
+                </div>
+
+                <label for="nombre" class="from-label">Nombres: </label>
+                <input type="text" id="nombre" class="form-input" placeholder="Ingrese su nombre" >
+               
+
+                <label for="correo" class="from-label">Correo Electronico: </label>
+                <input type="email" id="correo" class="form-input" placeholder="Ingrese su Correo Electronico">
+                
+                
+
+                <label for="mensaje" class="from-label">mensaje: </label>
+                <textarea id="mensaje" class="form-textarea" placeholder="Escriba su mensaje"></textarea>
+
+                <input type="submit" class="btn-submit" onclick='return enviarFormulario();' value="enviar" >
+
+               
+                
+            </form>
+
+         
+          
+       
+       
+
+           
+
+            <div id='error'> </div>
+        </div>
+    </section>
+   
+    <script src="js/main.js"></script>
+</body>
+</html>
